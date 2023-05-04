@@ -2,11 +2,23 @@ nav
 {
 background-color: #00000066;
 }
+.container-fluid{
+  display: flex;
+  justify-content: flex-start;
+}
 .collapse
 {
   justify-content: flex-end;
   margin-right: 20px;
 }
-a{
+.navbar-brand {
   color: white;
 }
+.nav-item a{
+  color: white;
+}
+/* span
+{
+  color: white;
+}
+ */
