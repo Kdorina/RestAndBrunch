@@ -5,14 +5,18 @@ footer{
   align-items: center;
   justify-content: center;
 }
-
+.empty{
+  width: 35%;
+}
 .infoHolder{
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-background-color: deeppink;
-width: 50%;
+/* background-color: deeppink; */
+/* margin: 0 auto;
+ */
+ width: 35%;
 }
 .logo{
 }
@@ -26,15 +30,17 @@ text-align: center;
 }
 
 .map{
-  background-color: aquamarine;
+/*   background-color: aquamarine; */
   display: flex;
-  text-align: right;
   flex-direction: column;
-  width: 50%;
-
+  width: 35%;
+  text-align: right;
+  padding: 20px;
 }
 .map i{
+  color: white;
+  font-size: 12px;
 }
-.social{
-
+.social i{
+color: orange;
 }
