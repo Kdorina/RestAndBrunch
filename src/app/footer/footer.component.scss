@@ -1,0 +1,40 @@
+footer{
+  background-color: #181818;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoHolder{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: deeppink;
+width: 50%;
+}
+.logo{
+}
+
+.logo img{
+width: 50px;
+}
+.opening{
+color: white;
+text-align: center;
+}
+
+.map{
+  background-color: aquamarine;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  width: 50%;
+
+}
+.map i{
+}
+.social{
+
+}
