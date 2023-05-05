@@ -139,6 +139,8 @@ flex-direction: row;
   margin: 20px;
 }
 
+
+
 //////////////////////////////////
 .sectionFour{
   background-color: #181818;
@@ -178,3 +180,42 @@ border-radius: 10px;
 .titleBox p{
 color: #ffffff;
 }
+
+
+
+////////////////////////////////////
+  .sectionFive{
+    display: flex;
+    flex-direction: row;
+  }
+  .restImg{
+    display: flex;
+    width: 150%;
+    overflow: hidden;
+  }
+  .restImg img{
+
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .restHolder{
+    display: flex;
+    flex-direction: column;
+    background: #331E1A;
+    justify-content: center;
+
+  }
+  .restHolder
+  h2{
+  color: #ffffff;
+  font-size: 3vmin;
+  text-align: center;
+  margin: 10px;
+  }
+  .restHolder p{
+  color: #ffffff;
+  font-size: 2vmin;
+  text-align: justify;
+  margin: 10px;
+  }
