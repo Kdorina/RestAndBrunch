@@ -136,3 +136,42 @@ height: 809px;
   margin: 20px;
 }
 
+
+.sectionFour{
+  background-color: #181818;
+  display: flex;
+  height: 540px;
+  justify-content: center;
+  align-items: center;
+}
+.scroll{
+  display: flex;
+  overflow-x: scroll;
+}
+
+.ratingCard{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.titleBox
+{
+background-color: #331E1A;
+width: 350px;
+height: 150px;
+border-radius: 10px;
+}
+.titleBox p{
+color: #ffffff;
+}
