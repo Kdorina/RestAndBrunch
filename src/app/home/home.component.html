@@ -1,22 +1,18 @@
 
 <div class="sectionOne">
     <app-navbar></app-navbar>
-    <div class="timer">
-      <div class="description">
-        <p>Days</p>
-        <p>Hours</p>
-        <p>Minutes</p>
-        <p>Seconds</p>
-      </div>
-      <div class="timeNumber">
-        <p id="days">{{daysToDay}}</p>
-        <p id="hours">{{hoursToDay}}</p>
-        <p id="minutes">{{minutesToDay}}</p>
-        <p id="seconds">{{secondsToDay}}</p>
-      </div>
-    </div>
     <div class="logo">
-    <img src="assets/logo.png" alt="logo">
+      <img src="assets/logo.png" alt="logo">
+
+      <div class="timer">
+          <div class="timeNumber">
+            <p id="days">Days {{daysToDay}}</p>
+            <p id="hours">Hours {{hoursToDay}}</p>
+            <p id="minutes">Minutes {{minutesToDay}}</p>
+            <p id="seconds">Seconds{{secondsToDay}}</p>
+          </div>
+      </div>
+
     </div>
     <div class="curve">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

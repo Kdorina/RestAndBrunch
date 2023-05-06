@@ -11,10 +11,12 @@
 }
 .logo
 {
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  flex-direction: column;
+  margin-top: 20px;
 }
 .sectionOne .curve{
   position:absolute;
@@ -24,7 +26,16 @@
 
 }
 .timer{
+  margin-top: -80px;
+}
+.timeNumber p {
+padding: 10px;
+font-weight: 700px;
+}
+.timeNumber{
   display: flex;
+  justify-content: center;
+  flex-direction: row;
   color: white;
 
 }
