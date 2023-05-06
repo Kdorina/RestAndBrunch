@@ -3,8 +3,8 @@ nav
 background-color: #00000066;
 }
 .container-fluid{
-  display: flex;
-  justify-content: flex-start;
+display: flex;
+justify-content: space-between;
 }
 .collapse
 {
@@ -13,12 +13,22 @@ background-color: #00000066;
 }
 .navbar-brand {
   color: white;
+
 }
-.nav-item a{
+.title{
+ display: flex;
+}
+.title a{
+  margin-top: 5px;
+}
+.navbar-nav a{
   color: white;
 }
-/* span
+.btn
 {
-  color: white;
+  margin: 0;
 }
- */
+
+.navbar-toggler span{
+color: rgb(255, 255, 255);
+}
