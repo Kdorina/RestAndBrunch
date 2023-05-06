@@ -34,12 +34,17 @@ text-align: center;
   display: flex;
   flex-direction: column;
   width: 35%;
-  text-align: right;
+  text-align: center;
   padding: 20px;
 }
-.map i{
+.map p i{
   color: white;
   font-size: 15px;
+  padding: 5px;
+}
+.map p{
+  color: white;
+  font-size: 13px;
 }
 .social i{
 color: orange;

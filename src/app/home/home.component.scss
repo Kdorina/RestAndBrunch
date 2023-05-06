@@ -154,9 +154,17 @@ flex-direction: row;
   height: 540px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
+
+.sectionFour h1{
+  color: white;
+  margin-top: 20px;
+}
+
 .scroll{
   display: flex;
+  flex-direction: column;
   overflow-x: scroll;
 }
 
@@ -167,28 +175,40 @@ flex-direction: row;
   flex-direction: column;
 }
 
-.circle{
+/* .circle{
   background-color: white;
   width: 100px;
   height: 100px;
   margin: 0 auto;
   border-radius: 100px;
   margin-bottom: 20px;
-}
+} */
 
 .titleBox
 {
-background-color: #331E1A;
-width: 350px;
+width: 450px;
 height: 150px;
 border-radius: 10px;
+box-shadow: inset 5px 5px 5px #0000000d,
+inset -5px -5px 5px #000000,
+5px 5px 5px #0000000d,
+-5px -5px 5px #000000;
 }
+
 .titleBox p{
 color: #ffffff;
+padding: 10px;
 }
 
-
-
+.rateNumber{
+  float: right;
+  text-align: center;
+  background-color: #471f17;
+  border-radius: 30px;
+  padding: 10px;
+  width:60px;
+  margin-right: 20px;
+}
 ////////////////////////////////////
   .sectionFive{
     display: flex;
