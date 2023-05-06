@@ -54,20 +54,25 @@ background-color: #181818;
 .cards .imageBox{
   display: flex;
   justify-content: center;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background: #ffffff;
-  border-radius: 100px;
+  border-radius: 150px;
   transform: 0.5s;
   margin-top: -80px;
 }
 .cards:hover .imageBox{
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   margin-top: -80px;
   scale: 0.75;
 }
-
+.imageBox img{
+width: 100%;
+height: 100%;
+border-radius: 100%;
+background-size: cover;
+}
 .cards
 {
   display: flex;
