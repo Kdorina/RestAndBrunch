@@ -1,0 +1,39 @@
+html{
+  background: url('/assets/rest1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section1{
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.section1 img{
+  text-align: center;
+  margin-top: -300px;
+  margin-bottom: -40px;
+  width: 200px;
+}
+.section1 .text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0px;
+  color: white;
+}
+.text h1{
+font-size: 70px;
+}
+.section1 .curve{
+  position:absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+
+}
+.section2{
+  height: 650px;
+  background-color: #000000ae;
+}
