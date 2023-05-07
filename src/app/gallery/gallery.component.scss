@@ -8,15 +8,20 @@ html{
   overflow: hidden;
   height: 700px;
   display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.section1 .logo{
+  margin-top: 100px;
+  display: flex;
   justify-content: center;
 }
-.section1 img{
-  text-align: center;
-  margin-top: -300px;
-  margin-bottom: -40px;
-  width: 200px;
+.logo img{
+  width: 150px;
 }
-.section1 .text{
+
+.text{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -24,9 +29,10 @@ html{
   color: white;
 }
 .text h1{
-font-size: 70px;
-font-family: Georgia, serif;
-}
+  text-align: center;
+  font-size: 70px;
+  font-family: Georgia, serif;
+  }
 .section1 .curve{
   position:absolute;
   bottom: -1px;
@@ -34,7 +40,42 @@ font-family: Georgia, serif;
   width: 100%;
 
 }
+////////////////////////////////////////
+
+
+
 .section2{
+  display: flex;
+  align-items: center;
+/*   justify-content: center; */
   height: 650px;
   background-color: #000000ae;
+}
+/* .imgHolder{
+  display: flex;
+  align-items: center;
+
+  overflow-y: scroll;
+  height: 550px;
+} */
+
+.row{
+  display: flex;
+  align-items: center;
+  overflow-y: scroll;
+  height: 550px;
+
+  margin: 50px;
+  width: 80%;
+}
+.card img{
+  height: 400px;
+  object-fit: cover;
+}
+.col {
+/*   width: 400px;
+ */
+ /*  margin: 50px; */
+ height: 600px;
+ min-width: 400px;
 }
