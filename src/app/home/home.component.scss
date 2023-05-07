@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .sectionOne .curve{
   position:absolute;
@@ -41,6 +41,9 @@
 }
 .timer{
   margin-top: -80px;
+  background-color: #0000009b;
+  border-radius: 30px;
+  padding: 10px 5px 0px 5px;
 }
 .timeNumber p {
 padding: 10px;
@@ -190,7 +193,7 @@ background-color: #331E1A;
 
 .sectionFour h1{
   color: white;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .scroll{
@@ -199,13 +202,10 @@ background-color: #331E1A;
   overflow: hidden;
   width: 700px;
   min-width: 300px;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 .scroll .ratingCard{
-  /* margin: 20px;
-  padding: 20px; */
-  margin:10px;
   display: flex;
   flex-shrink: 0;
   animation: scroll 12s infinite ease-in-out;
@@ -222,13 +222,15 @@ background-color: #331E1A;
 
 .titleBox
 {
-width: 450px;
-height: 150px;
+width: 350px;
+height: 170px;
 border-radius: 10px;
-box-shadow: inset 5px 5px 5px #0000000d,
+box-shadow: inset 5px 5px 5px #ffffff0d,
 inset -5px -5px 5px #000000,
 5px 5px 5px #0000000d,
 -5px -5px 5px #000000;
+margin:50px;
+padding: 20px;
 }
 
 .titleBox p{
@@ -240,10 +242,11 @@ padding: 10px;
   float: right;
   text-align: center;
   background-color: #d03819;
-  border-radius: 30px;
-  padding: 10px;
-  width:60px;
-  margin-right: 20px;
+  border-radius: 10px;
+  width:50px;
+  margin-right: 10px;
+  margin-top: -15px;
+  font-size: 13px;
 }
 
 
