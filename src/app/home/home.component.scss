@@ -180,15 +180,19 @@ flex-direction: row;
 
 .scroll{
   display: flex;
-  flex-direction: column;
-  overflow-x: scroll;
+  flex-direction: row;
+  overflow: hidden;
+  max-width: 500px;
+  margin: 100px auto;
 }
 
-.ratingCard{
-  margin: 20px;
-  padding: 20px;
+.scroll .ratingCard{
+  /* margin: 20px;
+  padding: 20px; */
+  margin:10px;
   display: flex;
-  flex-direction: column;
+  flex-shrink: 0;
+  animation: scroll 12s infinite ease-in-out;
 }
 
 /* .circle{
@@ -224,6 +228,29 @@ padding: 10px;
   padding: 10px;
   width:60px;
   margin-right: 20px;
+}
+
+
+@keyframes scroll {
+  0%,
+  20%{
+    transform: translateX(0);
+  }
+  25%,
+  45%{
+    transform: translateX(-100%);
+  }
+  50%,
+  70%{
+    transform: translateX(-200%);
+  }
+  75%,
+  95%{
+    transform: translateX(-300%);
+  }
+  100%{
+    transform: translateX(-400%);
+  }
 }
 ////////////////////////////////////
   .sectionFive{
