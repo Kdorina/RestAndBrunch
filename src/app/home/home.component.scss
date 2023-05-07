@@ -48,6 +48,7 @@
 .timeNumber p {
 padding: 10px;
 font-weight: 700px;
+font-family: Georgia, serif;
 }
 .timeNumber{
   display: flex;
@@ -73,10 +74,11 @@ background-color: #181818;
 }
 .mainTitle h1{
   font-size: 45px;
+  font-family: Georgia, serif;
 }
-/* .mainTitle p{
-
-} */
+.mainTitle p{
+  font-family: Georgia, serif;
+}
 .cardHolder
 {
   margin-top: 100px;
@@ -171,12 +173,14 @@ background-color: #331E1A;
   color: #ffffff;
   text-align: center;
   margin: 20px;
+  font-family: Georgia, serif;
 }
 .contentHolder p{
   text-align: justify;
   color: #ffffff;
   font-size: 2vmin;
   margin: 20px;
+  font-family: Georgia, serif;
 }
 
 
@@ -194,6 +198,7 @@ background-color: #331E1A;
 .sectionFour h1{
   color: white;
   margin-top: 50px;
+  font-family: Georgia, serif;
 }
 
 .scroll{
@@ -236,6 +241,7 @@ padding: 20px;
 .titleBox p{
 color: #ffffff;
 padding: 10px;
+font-family: Georgia, serif;
 }
 
 .rateNumber{
@@ -301,10 +307,12 @@ padding: 10px;
   font-size: 3vmin;
   text-align: center;
   margin: 10px;
+  font-family: Georgia, serif;
   }
   .restHolder p{
   color: #ffffff;
   font-size: 2vmin;
   text-align: justify;
   margin: 10px;
+  font-family: Georgia, serif;
   }
