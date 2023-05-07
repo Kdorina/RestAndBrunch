@@ -38,7 +38,23 @@ public daysToDay!: number;
   ngOnInit(): void {
     this.subscription = interval(1000)
     .subscribe(x => { this.timerDiff(); });
+
+    this.scroll();
   }
 
+ scroll(){
+  let observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+      console.log(entry);
+      if(entry.isIntersecting){
+        entry.target.classList.add('show');
+      }else{
+        entry.target.classList.remove('show');
+      }
+    })
+  })
+  let hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el)=> observer.observe(el));
+ }
 
 }

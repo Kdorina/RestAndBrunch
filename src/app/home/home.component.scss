@@ -1,3 +1,17 @@
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateY(50%);
+  filter: blur(5px);
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+
+
 .sectionOne
 {
   position: relative;
@@ -130,6 +144,7 @@ background-size: cover;
 .sectionThree{
 display: flex;
 flex-direction: row;
+background-color: #331E1A;
 }
 
 .imageHolder{
@@ -182,7 +197,8 @@ flex-direction: row;
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  max-width: 500px;
+  width: 700px;
+  min-width: 300px;
   margin: 100px auto;
 }
 
@@ -223,7 +239,7 @@ padding: 10px;
 .rateNumber{
   float: right;
   text-align: center;
-  background-color: #471f17;
+  background-color: #d03819;
   border-radius: 30px;
   padding: 10px;
   width:60px;
@@ -256,6 +272,7 @@ padding: 10px;
   .sectionFive{
     display: flex;
     flex-direction: row;
+    background-color: #331E1A;
   }
   .restImg{
     display: flex;
